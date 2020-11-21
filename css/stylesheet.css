@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color:black;
+  /* positionプロパティをfixedに、topを0に指定してください */
+  position:fixed;
+  top:0px;
+  
+  /* z-indexを10に指定してください */
+  z-index:10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.main_container {
+  width: 1170px;
+  height: 550px;
+  background-color:rgb(32, 32, 32);
+}
+main div{
+  text-align: center;
+}
+main img{
+      border-radius: 50%;
+      width: 25%;
+      height: 25%;
+      margin-top: 6%;
+      
+    }
+    
+.main_wrapper{
+
+  color: white;
+}
+
+
+footer {
+  background-color:black;
+  width:1170px ;
+  height: 100px;
+  text-align: center;
+}
+
+.follow-me {
+  list-style: none;
+  margin: 0 0 -8px;
+  overflow: hidden;
+}
+.follow-me li {
+  display: inline;
+  margin: 20px 20px 0px 0;
+  padding: 0;
+}
+
+.follow-me li a:hover {
+  opacity: 0.7;
+}
+
